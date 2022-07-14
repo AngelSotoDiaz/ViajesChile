@@ -2,7 +2,11 @@
     font-family: 'Open Sans', sans-serif;
     background-color: black !important;
 }
-
+.icon-1{
+    
+    text-align: center;
+    margin-top: 10rem;
+}
 
 #Quienes-somos hr {
     background-color: #1798c1;
@@ -16,6 +20,11 @@
 }
 #Quienes-somos p{
     color: white;
+}
+#Quienes-somos i{
+    padding:0.2rem ;
+    margin: 0.2rem;
+    padding-left: 19rem;
 }
 
 #destacados hr{
@@ -40,6 +49,7 @@
 }
 #destacados .card{
         background-color: #1798c1;
+        margin:auto;
        
 }
 .fondo-celeste{
