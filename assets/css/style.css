@@ -1,3 +1,9 @@
+.html{
+    scroll-behavior: smooth;
+}
+
+
+
 .body{
     font-family: 'Open Sans', sans-serif;
     background-color: black !important;
@@ -7,7 +13,7 @@
     
 }
     
-    
+
 
 #Quienes-somos hr {
     background-color: #1798c1;
@@ -16,7 +22,7 @@
 }
 #Quienes-somos h5{
     text-align: center;
-    /* padding-top: 3rem; */
+    padding-top: 3rem;
     color: white;
     
 }
@@ -27,8 +33,9 @@
 #Quienes-somos i{
     padding:0.2rem ;
     margin: 0.2rem;
-    
-
+}
+.caja-icons{
+    contain: ;
 }
 
 #destacados hr{
@@ -46,14 +53,18 @@
     
     border-color: white;
 }
-#destacados .row{
+/* #destacados .row{
     padding-right: 4rem;
     
 
-}
+} */
 #destacados p{
     color: white;
 }
+ /* #destacados .card2{
+    
+
+}  */
 #contacto h5{
     text-align: center;
     padding-top: 7rem;;

@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link rel="stylesheet" href="./assets/css/style.css">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <!-- Bootstrap 4.6.1 -->
@@ -17,8 +19,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./assets/js/main.js">
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js"></script>
 
   <title>Viajes Chile</title>
 </head>
@@ -46,7 +47,7 @@
             <a class="nav-link text-white" href="#Quienes-Somos">Quienes somos</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-white" href="#Destacados">Destacados</a>
+            <a class="nav-link text-white" href="#destacados">Destacados</a>
           </li>
           <li class="nav-item">
             <a class="nav-link  text-white" href="#Contacto">Contacto</a>
@@ -86,10 +87,10 @@
       <h5>¿Quiénes Somos?</h5>
       <hr>
 
-      <div class="row mx-auto text-center">
+      <div class="row mx-auto text-justify">
         <div class="col-md-4 col-lg-4 my-2">
 
-          <i class="fas fa-plane  text-white fondo-celeste "></i>
+          <i class="fas fa-plane  text-white fondo-celeste caja-icons "></i>
 
 
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -102,7 +103,7 @@
             laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
         </div>
         <div class="col-md-4 col-lg-4 my-2 ">
-          
+
           <p>
 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -114,10 +115,10 @@
             est
             laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse.
           </p>
-          <i class="fas fa-mountain  text-white fondo-celeste  "></i>
+          <i class="fas fa-mountain  text-white fondo-celeste caja-icons  "></i>
         </div>
         <div class="col-md-4 col-lg-4 my-2 ">
-          <i class="fas fa-route   text-white fondo-celeste  "></i>
+          <i class="fas fa-route   text-white fondo-celeste caja-icons  "></i>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -126,7 +127,7 @@
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
             est
             laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
-            
+
         </div>
       </div>
     </div>
@@ -150,7 +151,7 @@
         <!-- tarjeta 2 -->
         <div class="col-md-3 ">
           <div class="card" style="width: 18rem;">
-            <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
+            <img src="./assets/img/card2.jpg" class="card-img-top px-3 card2 " alt="...">
             <div class="card-body">
               <h5 class="card-title">Lorem ipsum dolor sit ame</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -198,21 +199,20 @@
       </div>
     </div>
   </header>
-  
-    <footer class=" fondo-celeste ">
-      <div class="container d-md-flex text-white text-center " id="footer">
-      <h4>VIAJES CHILE
 
-        <i class="fab fa-github mx-1  "></i>
-        <i class="fab fa-linkedin mx-1  "></i>
-        <i class="fab fa-twitter-square mx-1  "></i>
-        <i class="fab fa-facebook-square mx-1  "></i>
-  
-      </h4>
-
+  <footer class=" fondo-celeste container-fluid ">
+    <div class=" d-md-flex text-white text-center  " id="footer">
+        <div class="col-sm-6 col-12 ">
+            <h1 class="font-weight-bolder">Viajes Chile</h1>                
+        </div>
+        <div>
+            <i class="fab fa-github fa-4x mx-3"></i>
+            <i class="fab fa-linkedin fa-4x mx-3"></i>
+            <i class="fab fa-twitter fa-4x mx-3"></i>
+            <i class="fab fa-facebook-square fa-4x mx-3"></i>
+        </div>
     </div>
-    </footer>
-  
+</footer>
 
 
 
@@ -225,7 +225,9 @@
 
 
 
-  <!-- Jquery 3.5.1 -->
+
+
+  <!--Jquery 3.5.1-->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
